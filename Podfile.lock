@@ -46,6 +46,12 @@ DEPENDENCIES:
   - SSZipArchive (~> 1.8.1)
   - Yoga
 
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Protobuf
+    - SSZipArchive
+    - Yoga
+
 EXTERNAL SOURCES:
   React:
     :podspec: https://raw.githubusercontent.com/yyued/react-native-runtime-ios/0.45.1/React.podspec
@@ -58,4 +64,4 @@ SPEC CHECKSUMS:
 
 PODFILE CHECKSUM: b7d71960f4fe0b08fd7d4651b412bb8bec6c19f2
 
-COCOAPODS: 1.3.1
+COCOAPODS: 1.5.3

@@ -24,14 +24,14 @@
 
 @implementation SVGAVideoEntity
 
-static NSCache *videoCache;
+//static NSCache *videoCache;
 
-+ (void)load {
-    static dispatch_once_t onceToken;
-    dispatch_once(&onceToken, ^{
-        videoCache = [[NSCache alloc] init];
-    });
-}
+//+ (void)load {
+//    static dispatch_once_t onceToken;
+//    dispatch_once(&onceToken, ^{
+//        videoCache = [[NSCache alloc] init];
+//    });
+//}
 
 - (instancetype)initWithJSONObject:(NSDictionary *)JSONObject cacheDir:(NSString *)cacheDir {
     self = [super init];
@@ -169,13 +169,13 @@ static NSCache *videoCache;
     self.sprites = sprites;
 }
 
-+ (SVGAVideoEntity *)readCache:(NSString *)cacheKey {
-    return [videoCache objectForKey:cacheKey];
-}
+//+ (SVGAVideoEntity *)readCache:(NSString *)cacheKey {
+//    return [videoCache objectForKey:cacheKey];
+//}
 
-- (void)saveCache:(NSString *)cacheKey {
-    [videoCache setObject:self forKey:cacheKey];
-}
+//- (void)saveCache:(NSString *)cacheKey {
+//    [videoCache setObject:self forKey:cacheKey];
+//}
 
 @end
 

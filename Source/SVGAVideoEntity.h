@@ -28,8 +28,8 @@
 - (void)resetImagesWithProtoObject:(SVGAProtoMovieEntity *)protoObject;
 - (void)resetSpritesWithProtoObject:(SVGAProtoMovieEntity *)protoObject;
 
-+ (SVGAVideoEntity *)readCache:(NSString *)cacheKey;
-- (void)saveCache:(NSString *)cacheKey;
+//+ (SVGAVideoEntity *)readCache:(NSString *)cacheKey;
+//- (void)saveCache:(NSString *)cacheKey;
 
 @end
 
